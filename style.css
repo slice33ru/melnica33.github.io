@@ -35,16 +35,10 @@ h1, h2, h3, h4, h5, h6, p, a, ul, ol, li
    -webkit-background-origin: border !important;
    -moz-background-origin: border !important;
    background-origin: border-box !important;
-   background: #0995EC;
-   background: -webkit-linear-gradient(top, #A1D9FC 0, #099BF6 48%, #033554 100%) no-repeat;
-   background: -moz-linear-gradient(top, #A1D9FC 0, #099BF6 48%, #033554 100%) no-repeat;
-   background: -o-linear-gradient(top, #A1D9FC 0, #099BF6 48%, #033554 100%) no-repeat;
-   background: -ms-linear-gradient(top, #A1D9FC 0, #099BF6 48%, #033554 100%) no-repeat;
-   -svg-background: linear-gradient(top, #A1D9FC 0, #099BF6 48%, #033554 100%) no-repeat;
-   background: linear-gradient(to bottom, #A1D9FC 0, #099BF6 48%, #033554 100%) no-repeat;
-   -webkit-border-radius:8px;
-   -moz-border-radius:8px;
-   border-radius:8px;
+   background: #0995EC url('images/button.png') scroll;
+   -webkit-border-radius:11px;
+   -moz-border-radius:11px;
+   border-radius:11px;
    -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
    -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
    box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
@@ -574,7 +568,7 @@ li p, .art-postcontent li p, .art-blockcontent li p
 
 .art-slidecontainerpageslider .art-slide-item
 {
--webkit-border-radius:14px 14px 0 0;-moz-border-radius:14px 14px 0 0;border-radius:14px 14px 0 0;
+-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;
     -webkit-transform: rotate(0);
     -moz-transform: rotate(0);
     transform: rotate(0);
@@ -947,7 +941,7 @@ li p, .art-postcontent li p, .art-blockcontent li p
   display: inline-block;
   position: absolute;
   direction: ltr !important;
-  top: 518px;
+  top: 523px;
   left: 0%;
   z-index: 101;
   line-height: 0 !important;
@@ -983,9 +977,9 @@ border:1px solid #3471B2;
 
 margin:0 10px 0 0;
 
-width: 10px;
+width: 5px;
 
-height: 10px;
+height: 5px;
 }
 .art-slidenavigatorpageslider > a.active
 {
@@ -996,9 +990,9 @@ border:1px solid #62BFF9;
 
 margin:0 10px 0 0;
 
-width: 10px;
+width: 5px;
 
-height: 10px;
+height: 5px;
 }
 .art-slidenavigatorpageslider > a:hover
 {
@@ -1009,9 +1003,9 @@ border:1px solid #0995EC;
 
 margin:0 10px 0 0;
 
-width: 10px;
+width: 5px;
 
-height: 10px;
+height: 5px;
 }
 
 
@@ -1482,31 +1476,16 @@ ul.art-hmenu ul
    left: 30px;
 }
 
-.art-sheet
-{
-   background: #031526;
-   background: transparent;
-   -webkit-border-radius:15px 15px 0 0;
-   -moz-border-radius:15px 15px 0 0;
-   border-radius:15px 15px 0 0;
-   border:1px solid transparent;
-   border-bottom:none;
-   margin:20px auto 0;
-   position:relative;
-   cursor:auto;
-   width: 900px;
-   z-index: auto !important;
-}
-
 .art-pageslider
 {
-   -webkit-border-radius:14px 14px 0 0;
-   -moz-border-radius:14px 14px 0 0;
-   border-radius:14px 14px 0 0;
-   margin:0 auto;
+   -webkit-border-radius:5px;
+   -moz-border-radius:5px;
+   border-radius:5px;
+   margin:20px auto 0;
    height: 530px;
    background-repeat: no-repeat;
    position: relative;
+   width: 900px;
    z-index: auto !important;
 }
 
@@ -1523,9 +1502,25 @@ ul.art-hmenu ul
 
 .art-pageslider .art-slider-inner
 {
-   -webkit-border-radius:14px 14px 0 0;
-   -moz-border-radius:14px 14px 0 0;
-   border-radius:14px 14px 0 0;
+   -webkit-border-radius:5px;
+   -moz-border-radius:5px;
+   border-radius:5px;
+}
+
+.art-sheet
+{
+   background: #031526;
+   background: transparent;
+   -webkit-border-radius:5px 5px 0 0;
+   -moz-border-radius:5px 5px 0 0;
+   border-radius:5px 5px 0 0;
+   border:1px solid transparent;
+   border-bottom:none;
+   margin:0 auto;
+   position:relative;
+   cursor:auto;
+   width: 900px;
+   z-index: auto !important;
 }
 
 .art-layout-wrapper
@@ -1699,7 +1694,7 @@ button.art-button
    vertical-align: middle;
    white-space: nowrap;
    text-align: center;
-   color: #E1F3FE;
+   color: #033859;
    margin: 0 5px 0 0 !important;
    overflow: visible;
    cursor: pointer;
@@ -1744,16 +1739,10 @@ input.art-button
 
 .art-button.active, .art-button.active:hover
 {
-   background: #FFFFFF;
-   background: -webkit-linear-gradient(top, #FFFFFF 0, #099BF6 76%, #066AA7 100%) no-repeat;
-   background: -moz-linear-gradient(top, #FFFFFF 0, #099BF6 76%, #066AA7 100%) no-repeat;
-   background: -o-linear-gradient(top, #FFFFFF 0, #099BF6 76%, #066AA7 100%) no-repeat;
-   background: -ms-linear-gradient(top, #FFFFFF 0, #099BF6 76%, #066AA7 100%) no-repeat;
-   -svg-background: linear-gradient(top, #FFFFFF 0, #099BF6 76%, #066AA7 100%) no-repeat;
-   background: linear-gradient(to bottom, #FFFFFF 0, #099BF6 76%, #066AA7 100%) no-repeat;
-   -webkit-border-radius:8px;
-   -moz-border-radius:8px;
-   border-radius:8px;
+   background: #FFFFFF url('images/activebutton.png') scroll;
+   -webkit-border-radius:11px;
+   -moz-border-radius:11px;
+   border-radius:11px;
    -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
    -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
    box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
@@ -1762,21 +1751,15 @@ input.art-button
    margin:0 auto;
 }
 .art-button.active, .art-button.active:hover {
-   color: #878787 !important;
+   color: #404040 !important;
 }
 
 .art-button.hover, .art-button:hover
 {
-   background: #C0D5ED;
-   background: -webkit-linear-gradient(top, #FFFFFF 0, #397DC6 77%, #28588A 100%) no-repeat;
-   background: -moz-linear-gradient(top, #FFFFFF 0, #397DC6 77%, #28588A 100%) no-repeat;
-   background: -o-linear-gradient(top, #FFFFFF 0, #397DC6 77%, #28588A 100%) no-repeat;
-   background: -ms-linear-gradient(top, #FFFFFF 0, #397DC6 77%, #28588A 100%) no-repeat;
-   -svg-background: linear-gradient(top, #FFFFFF 0, #397DC6 77%, #28588A 100%) no-repeat;
-   background: linear-gradient(to bottom, #FFFFFF 0, #397DC6 77%, #28588A 100%) no-repeat;
-   -webkit-border-radius:8px;
-   -moz-border-radius:8px;
-   border-radius:8px;
+   background: #C0D5ED url('images/hoveredbutton.png') scroll;
+   -webkit-border-radius:11px;
+   -moz-border-radius:11px;
+   border-radius:11px;
    -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
    -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
    box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.15);
@@ -1785,7 +1768,7 @@ input.art-button
    margin:0 auto;
 }
 .art-button.hover, .art-button:hover {
-   color: #077CC5 !important;
+   color: #044E7B !important;
 }
 
 input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="number"], input[type="range"], input[type="tel"], input[type="time"], input[type="week"], textarea

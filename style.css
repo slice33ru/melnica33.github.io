@@ -412,7 +412,151 @@ li p, .art-postcontent li p, .art-blockcontent li p
    margin-right: 0 !important;
 }
 
-.art-slidecontainerpageslider {
+.art-object1084130504
+{
+    display: block;
+    left: 80.6%;
+    margin-left: -162px;
+    position: absolute;
+    top: -52px;
+    width: 220px;
+    height: 219px;
+    background-image: url('images/object1084130504.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.default-responsive .art-object1084130504
+{
+  display: none;
+}.art-object1832521223
+{
+    display: block;
+    left: 9.88%;
+    margin-left: -8px;
+    position: absolute;
+    top: 4px;
+    width: 85px;
+    height: 134px;
+    background-image: url('images/object1832521223.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.default-responsive .art-object1832521223
+{
+  display: none;
+}.art-object2040921258
+{
+    display: block;
+    left: 98.8%;
+    margin-left: -69px;
+    position: absolute;
+    top: 6px;
+    width: 70px;
+    height: 65px;
+    background-image: url('images/object2040921258.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+
+.default-responsive .art-object2040921258
+{
+  display: none;
+}.art-object329432838
+{
+    display: block;
+    left: 0%;
+    margin-left: -62px;
+    position: absolute;
+    top: 13px;
+    width: 76px;
+    height: 71px;
+    background-image: url('images/object329432838.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    z-index: 4;
+}
+
+.default-responsive .art-object329432838
+{
+  display: none;
+}.art-object1283888123
+{
+    display: block;
+    left: 89.4%;
+    margin-left: -58px;
+    position: absolute;
+    top: 74px;
+    width: 65px;
+    height: 61px;
+    background-image: url('images/object1283888123.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+
+.default-responsive .art-object1283888123
+{
+  display: none;
+}.art-object330652165
+{
+    display: block;
+    left: 0.54%;
+    margin-left: 0px;
+    position: absolute;
+    top: 84px;
+    width: 59px;
+    height: 55px;
+    background-image: url('images/object330652165.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    z-index: 6;
+}
+
+.default-responsive .art-object330652165
+{
+  display: none;
+}.art-object1946928953
+{
+    display: block;
+    left: 41.07%;
+    margin-left: -24px;
+    position: absolute;
+    top: -1px;
+    width: 60px;
+    height: 56px;
+    background-image: url('images/object1946928953.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    z-index: 7;
+}
+
+.default-responsive .art-object1946928953
+{
+  display: none;
+}.art-object1901215171
+{
+    display: block;
+    left: 56.67%;
+    margin-left: -26px;
+    position: absolute;
+    top: 107px;
+    width: 46px;
+    height: 43px;
+    background-image: url('images/object1901215171.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    z-index: 8;
+}
+
+.default-responsive .art-object1901215171
+{
+  display: none;
+}.art-slidecontainerpageslider {
     position: relative;
             width: 100%;
     height: 100%;
@@ -430,18 +574,18 @@ li p, .art-postcontent li p, .art-blockcontent li p
 
 .art-slidecontainerpageslider .art-slide-item
 {
--webkit-border-radius:4px 4px 0 0;-moz-border-radius:4px 4px 0 0;border-radius:4px 4px 0 0;
+-webkit-border-radius:14px 14px 0 0;-moz-border-radius:14px 14px 0 0;border-radius:14px 14px 0 0;
     -webkit-transform: rotate(0);
     -moz-transform: rotate(0);
     transform: rotate(0);
 }
 
 .art-slidecontainerpageslider .art-slide-item {
-    -webkit-transition: 600ms ease-in-out left;
-    -moz-transition: 600ms ease-in-out left;
-    -ms-transition: 600ms ease-in-out left;
-    -o-transition: 600ms ease-in-out left;
-    transition: 600ms ease-in-out left;
+    -webkit-transition: 800ms ease-in-out left;
+    -moz-transition: 800ms ease-in-out left;
+    -ms-transition: 800ms ease-in-out left;
+    -o-transition: 800ms ease-in-out left;
+    transition: 800ms ease-in-out left;
     position: relative;
     display: none;
     width:  100%;
@@ -593,13 +737,217 @@ li p, .art-postcontent li p, .art-blockcontent li p
     background-size: auto auto;
     background-position: center center;
     background-repeat: no-repeat;
+}.art-slidepageslider3 {
+    background-image:  url('images/slidepageslider3.png');
+        /* background-size:  auto auto; */
+        background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+/* special setup for header/pageslider */
+.responsive .art-header .art-slidepageslider3 {
+    background-image:  url('images/slidepageslider3.png');
+    background-size: auto auto;
+    background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+.responsive .art-pageslider .art-slidepageslider3 {
+    background-image:  url('images/slidepageslider3.png');
+    background-size: auto auto;
+    background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+.default-responsive .art-header .art-slidepageslider3 {
+    background-image: url('images/slidepageslider3.png');
+    background-size: auto auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.default-responsive .art-pageslider .art-slidepageslider3 {
+    background-image: url('images/slidepageslider3.png');
+    background-size: auto auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}.art-slidepageslider4 {
+    background-image:  url('images/slidepageslider4.png');
+        /* background-size:  auto auto; */
+        background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+/* special setup for header/pageslider */
+.responsive .art-header .art-slidepageslider4 {
+    background-image:  url('images/slidepageslider4.png');
+    background-size: auto auto;
+    background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+.responsive .art-pageslider .art-slidepageslider4 {
+    background-image:  url('images/slidepageslider4.png');
+    background-size: auto auto;
+    background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+.default-responsive .art-header .art-slidepageslider4 {
+    background-image: url('images/slidepageslider4.png');
+    background-size: auto auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.default-responsive .art-pageslider .art-slidepageslider4 {
+    background-image: url('images/slidepageslider4.png');
+    background-size: auto auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}.art-slidepageslider5 {
+    background-image:  url('images/slidepageslider5.png');
+        /* background-size:  auto auto; */
+        background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+/* special setup for header/pageslider */
+.responsive .art-header .art-slidepageslider5 {
+    background-image:  url('images/slidepageslider5.png');
+    background-size: auto auto;
+    background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+.responsive .art-pageslider .art-slidepageslider5 {
+    background-image:  url('images/slidepageslider5.png');
+    background-size: auto auto;
+    background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+.default-responsive .art-header .art-slidepageslider5 {
+    background-image: url('images/slidepageslider5.png');
+    background-size: auto auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.default-responsive .art-pageslider .art-slidepageslider5 {
+    background-image: url('images/slidepageslider5.png');
+    background-size: auto auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}.art-slidepageslider6 {
+    background-image:  url('images/slidepageslider6.png');
+        /* background-size:  auto auto; */
+        background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+/* special setup for header/pageslider */
+.responsive .art-header .art-slidepageslider6 {
+    background-image:  url('images/slidepageslider6.png');
+    background-size: auto auto;
+    background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+.responsive .art-pageslider .art-slidepageslider6 {
+    background-image:  url('images/slidepageslider6.png');
+    background-size: auto auto;
+    background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+.default-responsive .art-header .art-slidepageslider6 {
+    background-image: url('images/slidepageslider6.png');
+    background-size: auto auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.default-responsive .art-pageslider .art-slidepageslider6 {
+    background-image: url('images/slidepageslider6.png');
+    background-size: auto auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}.art-slidepageslider7 {
+    background-image:  url('images/slidepageslider7.png');
+        /* background-size:  auto auto; */
+        background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+/* special setup for header/pageslider */
+.responsive .art-header .art-slidepageslider7 {
+    background-image:  url('images/slidepageslider7.png');
+    background-size: auto auto;
+    background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+.responsive .art-pageslider .art-slidepageslider7 {
+    background-image:  url('images/slidepageslider7.png');
+    background-size: auto auto;
+    background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+.default-responsive .art-header .art-slidepageslider7 {
+    background-image: url('images/slidepageslider7.png');
+    background-size: auto auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.default-responsive .art-pageslider .art-slidepageslider7 {
+    background-image: url('images/slidepageslider7.png');
+    background-size: auto auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}.art-slidepageslider8 {
+    background-image:  url('images/slidepageslider8.png');
+        /* background-size:  auto auto; */
+        background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+/* special setup for header/pageslider */
+.responsive .art-header .art-slidepageslider8 {
+    background-image:  url('images/slidepageslider8.png');
+    background-size: auto auto;
+    background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+.responsive .art-pageslider .art-slidepageslider8 {
+    background-image:  url('images/slidepageslider8.png');
+    background-size: auto auto;
+    background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+.default-responsive .art-header .art-slidepageslider8 {
+    background-image: url('images/slidepageslider8.png');
+    background-size: auto auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.default-responsive .art-pageslider .art-slidepageslider8 {
+    background-image: url('images/slidepageslider8.png');
+    background-size: auto auto;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .art-slidenavigatorpageslider {
   display: inline-block;
   position: absolute;
   direction: ltr !important;
-  top: 499px;
+  top: 518px;
   left: 0%;
   z-index: 101;
   line-height: 0 !important;
@@ -619,7 +967,7 @@ background: #84AFDB;background: transparent;background: transparent;background: 
 -webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;
 
 
-padding:5px;
+
 
 
 
@@ -1138,9 +1486,9 @@ ul.art-hmenu ul
 {
    background: #031526;
    background: transparent;
-   -webkit-border-radius:5px 5px 0 0;
-   -moz-border-radius:5px 5px 0 0;
-   border-radius:5px 5px 0 0;
+   -webkit-border-radius:15px 15px 0 0;
+   -moz-border-radius:15px 15px 0 0;
+   border-radius:15px 15px 0 0;
    border:1px solid transparent;
    border-bottom:none;
    margin:20px auto 0;
@@ -1152,11 +1500,11 @@ ul.art-hmenu ul
 
 .art-pageslider
 {
-   -webkit-border-radius:4px 4px 0 0;
-   -moz-border-radius:4px 4px 0 0;
-   border-radius:4px 4px 0 0;
+   -webkit-border-radius:14px 14px 0 0;
+   -moz-border-radius:14px 14px 0 0;
+   border-radius:14px 14px 0 0;
    margin:0 auto;
-   height: 520px;
+   height: 530px;
    background-repeat: no-repeat;
    position: relative;
    z-index: auto !important;
@@ -1175,9 +1523,9 @@ ul.art-hmenu ul
 
 .art-pageslider .art-slider-inner
 {
-   -webkit-border-radius:4px 4px 0 0;
-   -moz-border-radius:4px 4px 0 0;
-   border-radius:4px 4px 0 0;
+   -webkit-border-radius:14px 14px 0 0;
+   -moz-border-radius:14px 14px 0 0;
+   border-radius:14px 14px 0 0;
 }
 
 .art-layout-wrapper

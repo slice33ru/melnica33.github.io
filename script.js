@@ -1190,6 +1190,134 @@ if (typeof window.resizeData === 'undefined') window.resizeData = {};
 window.resizeData.headerPageWidth = true;
 if (typeof window.defaultResponsiveData === 'undefined') window.defaultResponsiveData = [false, true, true, true, true, ];
 
+resizeData['object1084130504'] = {
+   responsive: [
+                  { left: 0.81, top: -0.15, visible: true }, 
+                  { left: 0.81, top: -0.15, visible: true }, 
+                  { left: 0.81, top: -0.15, visible: true }, 
+                  { left: 0.81, top: -0.15, visible: true }, 
+                  { left: 0.81, top: -0.15, visible: true }, 
+               ],
+   area: {
+       x: -27,
+       y: -27
+   },
+   width: 168,
+   height: 167,
+   autoWidth: false};
+
+resizeData['object1832521223'] = {
+   responsive: [
+                  { left: 0.1, top: 0.26, visible: true }, 
+                  { left: 0.1, top: 0.26, visible: true }, 
+                  { left: 0.1, top: 0.26, visible: true }, 
+                  { left: 0.1, top: 0.26, visible: true }, 
+                  { left: 0.1, top: 0.26, visible: true }, 
+               ],
+   area: {
+       x: 0,
+       y: 0
+   },
+   width: 85,
+   height: 134,
+   autoWidth: false};
+
+resizeData['object2040921258'] = {
+   responsive: [
+                  { left: 0.99, top: 0.08, visible: true }, 
+                  { left: 0.99, top: 0.08, visible: true }, 
+                  { left: 0.99, top: 0.08, visible: true }, 
+                  { left: 0.99, top: 0.08, visible: true }, 
+                  { left: 0.99, top: 0.08, visible: true }, 
+               ],
+   area: {
+       x: 0,
+       y: 0
+   },
+   width: 70,
+   height: 65,
+   autoWidth: false};
+
+resizeData['object329432838'] = {
+   responsive: [
+                  { left: -0.81, top: 0.16, visible: true }, 
+                  { left: -0.81, top: 0.16, visible: true }, 
+                  { left: -0.81, top: 0.16, visible: true }, 
+                  { left: -0.81, top: 0.16, visible: true }, 
+                  { left: -0.81, top: 0.16, visible: true }, 
+               ],
+   area: {
+       x: 0,
+       y: 0
+   },
+   width: 76,
+   height: 71,
+   autoWidth: false};
+
+resizeData['object1283888123'] = {
+   responsive: [
+                  { left: 0.89, top: 0.83, visible: true }, 
+                  { left: 0.89, top: 0.83, visible: true }, 
+                  { left: 0.89, top: 0.83, visible: true }, 
+                  { left: 0.89, top: 0.83, visible: true }, 
+                  { left: 0.89, top: 0.83, visible: true }, 
+               ],
+   area: {
+       x: 0,
+       y: 0
+   },
+   width: 65,
+   height: 61,
+   autoWidth: false};
+
+resizeData['object330652165'] = {
+   responsive: [
+                  { left: 0.01, top: 0.89, visible: true }, 
+                  { left: 0.01, top: 0.89, visible: true }, 
+                  { left: 0.01, top: 0.89, visible: true }, 
+                  { left: 0.01, top: 0.89, visible: true }, 
+                  { left: 0.01, top: 0.89, visible: true }, 
+               ],
+   area: {
+       x: 0,
+       y: 0
+   },
+   width: 59,
+   height: 55,
+   autoWidth: false};
+
+resizeData['object1946928953'] = {
+   responsive: [
+                  { left: 0.41, top: -0.02, visible: true }, 
+                  { left: 0.41, top: -0.02, visible: true }, 
+                  { left: 0.41, top: -0.02, visible: true }, 
+                  { left: 0.41, top: -0.02, visible: true }, 
+                  { left: 0.41, top: -0.02, visible: true }, 
+               ],
+   area: {
+       x: 0,
+       y: 0
+   },
+   width: 60,
+   height: 56,
+   autoWidth: false};
+
+resizeData['object1901215171'] = {
+   responsive: [
+                  { left: 0.57, top: 1, visible: true }, 
+                  { left: 0.57, top: 1, visible: true }, 
+                  { left: 0.57, top: 1, visible: true }, 
+                  { left: 0.57, top: 1, visible: true }, 
+                  { left: 0.57, top: 1, visible: true }, 
+               ],
+   area: {
+       x: 0,
+       y: 0
+   },
+   width: 46,
+   height: 43,
+   autoWidth: false};
+
 // used to apply compicated values in style like '!important!
 function applyCss(object, param, value) {
     var rg = new RegExp(param + '\s*:\s*[^;]+;', "i");
@@ -1455,7 +1583,7 @@ jQuery(function ($) {
             
             if ($.support.themeTransition) {
                 helper = new BackgroundHelper();
-                helper.init("horizontal", "prev", $(".art-slide-item", inner).first().css($.support.themeTransition.prefix + "transition-duration"));
+                helper.init("horizontal", "next", $(".art-slide-item", inner).first().css($.support.themeTransition.prefix + "transition-duration"));
                 inner.children().each(function () {
                     helper.processSlide($(this), true);
                 });
@@ -1507,6 +1635,42 @@ jQuery(function ($) {
     "bgposition": "0 0",
     "images": "",
     "positions": ""
+},
+".art-slidepageslider3": {
+    "bgimage" : "url('images/slidepageslider3.png')",
+    "bgposition": "0 0",
+    "images": "",
+    "positions": ""
+},
+".art-slidepageslider4": {
+    "bgimage" : "url('images/slidepageslider4.png')",
+    "bgposition": "0 0",
+    "images": "",
+    "positions": ""
+},
+".art-slidepageslider5": {
+    "bgimage" : "url('images/slidepageslider5.png')",
+    "bgposition": "0 0",
+    "images": "",
+    "positions": ""
+},
+".art-slidepageslider6": {
+    "bgimage" : "url('images/slidepageslider6.png')",
+    "bgposition": "0 0",
+    "images": "",
+    "positions": ""
+},
+".art-slidepageslider7": {
+    "bgimage" : "url('images/slidepageslider7.png')",
+    "bgposition": "0 0",
+    "images": "",
+    "positions": ""
+},
+".art-slidepageslider8": {
+    "bgimage" : "url('images/slidepageslider8.png')",
+    "bgposition": "0 0",
+    "images": "",
+    "positions": ""
 }
                 };
                 $.each(slidesInfo, function(selector, info) {
@@ -1516,11 +1680,11 @@ jQuery(function ($) {
 
             inner.children().eq(0).addClass("active");
             slideContainer.themeSlider({
-                pause: 2600,
-                speed: 600,
+                pause: 2800,
+                speed: 800,
                 repeat: true,
                 animation: "horizontal",
-                direction: "prev",
+                direction: "next",
                 navigator: slideContainer.siblings(".art-slidenavigatorpageslider"),
                 helper: helper
             });

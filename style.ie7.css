@@ -59,8 +59,8 @@ ul.art-hmenu>li:first-child>span.art-hmenu-separator
    display:none;
 }
 
-ul.art-hmenu ul{
-   background-color: #0995EC !important;
+ul.art-hmenu ul, .desktop-nav ul.art-hmenu>li.ext:hover>a{
+   background-color:  !important;
 }
 
 .art-content-layout, .art-content-layout-row, .art-layout-cell 

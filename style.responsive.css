@@ -402,7 +402,7 @@
   
 .responsive .art-nav ul.art-hmenu>li>ul
 {
-   padding: 0;
+   padding: -1px;
 }
   
 .responsive .art-nav ul.art-hmenu>li>ul:before
@@ -518,7 +518,7 @@
    display: none;
 }
 
-@media all and (max-width: 899px)
+@media all and (max-width: 999px)
 {
     #art-resp, #art-resp-t { display: block; }
     #art-resp-m { display: none; }

@@ -507,10 +507,65 @@ var setHMenuOpenDirection = (function ($) {
     });
 })(jQuery);
 
-jQuery(function ($) {
-    $("ul.art-hmenu ul li").hover(function () { $(this).prev().children("a").addClass("art-hmenu-before-hovered"); }, 
-        function () { $(this).prev().children("a").removeClass("art-hmenu-before-hovered"); });
-});
+
+var menuExtendedCreate = (function ($) {
+    "use strict";
+    return function () {
+        var sheet = $(".art-sheet");
+        var sheetLeft = sheet.offset().left;
+        var sheetWidth = sheet.width();
+
+        $(".art-hmenu>li").each(function(i, v) {
+            var itm = $(this);
+            var subm = itm.children("ul");
+            if (subm.length === 0) {
+                return;
+            }
+
+            // reset
+            itm.removeClass("ext ext-r ext-l");
+            itm.css("width", "").find(".ext-off,.ext-m,.ext-l,.ext-r").remove();
+            subm.children("li").children("a").css("width", "");
+
+            var lw = 0, rw = 0;
+        
+            if (typeof subm.attr("data-ext-l") !== "undefined" && typeof subm.attr("data-ext-r") !== "undefined") {
+                lw = parseInt(subm.attr("data-ext-l"), 10) + 0;
+                rw = parseInt(subm.attr("data-ext-r"), 10) + 0;
+                itm.addClass("ext-r").addClass("ext-l");
+            } else {
+                var ltr = !subm.hasClass("art-hmenu-right-to-left");
+                itm.addClass(ltr ? "ext-r" : "ext-l");
+            }
+
+            var shadow = 0;
+            if (subm.length > 0) {
+                var lnk = itm.children("a");
+                var lnkWidth = lnk.outerWidth(false);
+                itm.css("width", Math.round(parseFloat(lnkWidth, 10)) + "px");
+                var menubarMargin = -1 * 2; // margin * 2 sides
+                var menubarBorder = 0 * 2; // border 1 side
+                var submWidth = subm.width() + shadow + menubarMargin + menubarBorder;
+                var w = submWidth - lnkWidth;
+                $("<div class=\"ext-m\"></div>").insertBefore(lnk);
+                if (w < 0) {
+                    var submA = subm.children("li").children("a");
+                    var pL = parseInt(submA.css("padding-left").replace("px", ""), 10) || 0;
+                    var pR = parseInt(submA.css("padding-right").replace("px", ""), 10) || 0;
+                    var bL = parseInt(submA.css("border-left").replace("px", ""), 10) || 0;
+                    var bR = parseInt(submA.css("border-right").replace("px", ""), 10) || 0;
+                    subm.children("li").children("a").css("width", (lnkWidth - pL - pR - bL - bR) + "px");
+                    submWidth = subm.width() + shadow + menubarMargin + menubarBorder;
+                    w = submWidth - lnkWidth;
+                }
+                $("<div class=\"ext-l\" style=\"width: " + (lw > 0 ? lw : Math.round(parseFloat(w, 10))) + "px;\"></div>").insertBefore(lnk);
+                $("<div class=\"ext-r\" style=\"width: " + (rw > 0 ? rw : Math.round(parseFloat(w, 10))) + "px;\"></div>").insertBefore(lnk);
+                itm.addClass("ext");
+            }
+        });
+    };
+})(jQuery);
+jQuery(window).load(menuExtendedCreate);
 
 jQuery(function ($) {
     'use strict';
